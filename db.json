@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Apple iPhone 15",
+      "name": "orange iPhone 15",
       "brand": "Apple",
       "category": "Smartphones",
       "price": 99,
@@ -35,7 +35,7 @@
     },
     {
       "id": 4,
-      "name": "Apple Watch Series 9",
+      "name": "Apple Watch Series 13",
       "brand": "Apple",
       "category": "Smartwatch",
       "price": 429,
