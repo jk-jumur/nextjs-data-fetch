@@ -8,13 +8,13 @@
 
 //way-4
 
-   const getPosts = async () => {
+//    const getPosts = async () => {
 
-     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
-       if(!res.ok){
-           throw new Error('Failed to fetch posts');
-       }
-   }
+//      const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+//        if(!res.ok){
+//            throw new Error('Failed to fetch posts');
+//        }
+//    }
 // way-3
 
 //  const getPosts = async () => {
@@ -37,11 +37,12 @@ const PostsPage =async () => {
     //   const posts = await res.json();
 
     //    console.log(posts);
-    const posts = await getPosts();
-    console.log(posts);
+    // const posts = await getPosts();
+    // console.log(posts);
     return (
         <div>
-              <h2>Post are comming soon : {posts.length}</h2>
+              {/* <h2>Post are comming soon : {posts.length}</h2> */}
+              <h2>Post are comming soon: </h2>
         </div>
     );
 };
