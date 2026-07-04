@@ -1,0 +1,61 @@
+
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple iPhone 15",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "price": 99,
+      "stock": 25,
+      "rating": 4.8,
+      "description": "6.1-inch Super Retina XDR display with A16 Bionic chip and 128GB storage.",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d6d5f?w=500"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": 899,
+      "stock": 18,
+      "rating": 4.7,
+      "description": "Powerful Android smartphone featuring Galaxy AI, 256GB storage, and a 50MP camera.",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500"
+    },
+    {
+      "id": 3,
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "Headphones",
+      "price": 399,
+      "stock": 30,
+      "rating": 4.9,
+      "description": "Industry-leading wireless noise-canceling headphones with up to 30 hours of battery life.",
+      "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500"
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 13",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": 1299,
+      "stock": 12,
+      "rating": 4.8,
+      "description": "13.4-inch Full HD+ ultrabook with Intel Core i7, 16GB RAM, and 512GB SSD.",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500"
+    },
+    {
+      "id": 5,
+      "name": "Apple Watch Series 9",
+      "brand": "Apple",
+      "category": "Wearables",
+      "price": 429,
+      "stock": 20,
+      "rating": 4.7,
+      "description": "Advanced smartwatch with health tracking, GPS, and an always-on Retina display.",
+      "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500"
+    }
+  ]
+}
+
