@@ -14,12 +14,12 @@ const BooksPage = async() => {
         {next: {revalidate: 20}}
     );
     const books = await res.json();
-    console.log(books);
+    
     return (
-        <div>
+        <div className="container mx-auto p-4">
             <h1> Books Pagge : {books.length}</h1>
 
-            <div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                  {
                     books.map(book => <BookCard key={book.id} book={book}/>)
                  }

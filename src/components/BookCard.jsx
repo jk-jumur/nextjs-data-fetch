@@ -1,5 +1,7 @@
 // import Image from "next/image";
 
+import Link from "next/link";
+
 
 
 const BookCard = ({ book }) => {
@@ -22,7 +24,10 @@ const BookCard = ({ book }) => {
 
 
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+      <Link href={`/books/${book.id}`}>
+         <button className="btn btn-primary">Show Details</button>
+ 
+      </Link>
     </div>
   </div>
 </div>
